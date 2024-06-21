@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://testserverplaylistgenerator.herokuapp.com';
+const API_URL = 'https://testserverplaylistgenerator-3a91a8890329.herokuapp.com';
 
 export const getClientId = async () => {
     try {
