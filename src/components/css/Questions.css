@@ -1,0 +1,114 @@
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; 
+    color: #FFFFFF; 
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; 
+    color: #FFFFFF; 
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+  
+.question {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.options-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    width: 80%;
+    margin-top: 2em;
+}
+  
+.option {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.option:hover {
+    background-color: #1DB954; 
+    transform: scale(1.1);
+}
+  
+.option img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+}
+  
+.generate-button {
+    background-color: #1DB954; 
+    color: #FFFFFF; 
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.generate-button:hover {
+    background-color: #1ed760; 
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5%;
+    height: 100vh;
+    background-color: #121212; 
+    color: #FFFFFF; 
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* New CSS for the Go to Playlist button */
+.playlist-link-container {
+    margin-top: 20px;
+}
+
+.playlist-link-container a {
+    display: inline-block;
+    background-color: #1DB954;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.playlist-link-container a:hover {
+    background-color: #1ed760;
+}
